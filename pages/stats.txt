@@ -1,0 +1,1 @@
+{"userChoicesCount":{"Piedra":0,"Papel":0,"Tijera":1,"Lagarto":0,"Spock":0},"iaChoicesCount":{"Piedra":1,"Papel":0,"Tijera":0,"Lagarto":0,"Spock":0},"totalGames":2}

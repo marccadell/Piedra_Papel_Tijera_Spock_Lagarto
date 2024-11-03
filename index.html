@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M7-UF1-A5</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <div class="container">
+        <h1>Bienvenido a Piedra, Papel, Tijera, Spock, Lagarto</h1>
+        <section class="game-explanation">
+            <h2>¿Cómo jugar?</h2>
+            <p>Este juego es una extensión del clásico "Piedra, Papel, Tijera". <br> Aquí te muestro las posibles combinaciones:</p>
+            <div class="icon-game-instructions" id="game-items"></div>
+            <p>Y estas son las reglas del juego:</p>
+            <ul id="game-rules"></ul>
+        </section>
+        <h3>Elige tu opción y compite contra la computadora para ver quién gana más rondas. ¡Buena suerte!</h3>
+
+        <button class="start-game" onclick="window.location.href='pages/game.php'">Iniciar Juego</button>
+    </div>
+
+    <script defer src="js/animations.js"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script defer src="js/particles-config.js"></script>
+
+    <script defer src="js/game-rules.js"></script>
+</body>
+</html>
